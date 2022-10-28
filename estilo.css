@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+    margin: 0;
+}
+
+body{
+	background: url(img/fon.jpg);
+	width: 100%;
+	height: 200px;
+}
+  h1 {
+  	text-align: center;
+  	background-color:  black;
+    color: white;
+    padding: 20px;
+  }
+
+  nav ul{
+  	background-color: #a4b0be;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav li{
+  	display: inline-flex;
+  }
+  nav a{
+  	text-decoration: none;
+  	color: white;
+  	padding: 10px;
+  	width: 150px;
+  }
+ nav li:hover {
+ 	background-color: black;
+ }
+  img{
+ 	width: 200px;
+ 	height: 200px;
+ 	border-radius: 50%;
+ 	object-fit: cover;
+ }
+.contenido{
+	display: flex;
+	margin: 80px;
+}
+.secciones{
+	display: flex;
+	align-items: center;
+    padding: 40px;
+}
+footer{
+	text-align: center;
+  	background-color:  black;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
+
